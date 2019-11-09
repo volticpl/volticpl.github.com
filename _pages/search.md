@@ -11,7 +11,7 @@ description: Wyszukaj treści na naszej stronie.
 </div>
 <div id="results-container"></div>
 
-<script src="{{site.baseurl}}/js/jekyll-search.min.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/assets/js/jekyll-search.min.js" type="text/javascript"></script>
 <script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
