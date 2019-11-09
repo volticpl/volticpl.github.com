@@ -1,0 +1,59 @@
+title: Voltic
+description: "Voltic - energia przyszłości."
+email: kontakt@voltic.pl
+phone: +48-726-922-069
+vatid: PL7662000557
+url: https://voltic.pl
+default-image: /assets/images/favicon/android-chrome-512x512.png
+
+author:
+    name: Voltic
+    bio: "Świadczymy usługi w zakresie doradztwa i montażu instalacji fotowoltaicznych."
+    image: /assets/images/favicon/android-chrome-192x192.png
+    facebook: https://facebook.com/voltic
+
+markdown: kramdown
+
+enable-mathjax: yes
+enable-chartjs: yes
+
+permalink: /blog/:title/
+
+paginate: 4
+paginate_path: /blog/page:num/
+
+name: Voltic M
+projects: Nasza praca
+
+include:
+    - _pages
+
+analytics: UA-150903945-1
+tawkto-id: 5dbc3086e4c2fa4b6bd985da
+share: yes
+disqus: voltic-1
+
+sass:
+ sass_dir: /assets/css/_sass
+ style: compressed
+
+compress_html:
+  clippings: [html, head, meta, title, link, body, div, script, header, footer]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+destination: _site
+
+exclude:
+    - .git
+
+plugins:
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-paginate
+    - jekyll-seo-tag

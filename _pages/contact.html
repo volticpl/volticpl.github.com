@@ -1,0 +1,29 @@
+---
+layout: page
+title: Kontakt
+permalink: /kontakt/
+description: "Dbamy o opinię naszych klientów. Daj znać co o nas sądzisz."
+---
+
+
+
+
+<div class="row">
+	<div class="col-md-6">
+		<h2 class="double-u">Napisz do nas</h2>
+		<p><small>Dbamy o opinię naszych klientów. Daj znać co o nas sądzisz.</small></p>
+		<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit praesentium vel autem consequuntur vitae recusandae repellat itaque, quisquam perspiciatis id! Dicta tempora sit totam. Enim quod rerum sit iure soluta?</small></p>
+
+
+	</div>
+	<div class="col-md-6">
+		<form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
+			<input type="email" name="email" placeholder="Twój e-mail">
+			<textarea type="text" name="content" rows="6" placeholder="Treść"></textarea>
+			<input type="hidden" name="_next" value="<REDIRECTION LINK> ">
+			<input type="hidden" name="_subject" value="mia mia">
+			<input type="text" name="_gotcha" style="display:none">
+			<input class="btn" type="submit" value="Wyślij">
+		</form>
+	</div>
+</div>
